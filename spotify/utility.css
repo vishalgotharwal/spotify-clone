@@ -1,0 +1,48 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.emoji{
+    height: 25px;
+border: none;
+opacity: 0.9;
+border-radius: 5px;
+}
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a; /* Dark background color */
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #666; /* Dark gray handle color */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999; /* Light gray handle color on hover */
+}
+
+/* Scrollbar Corner */
+::-webkit-scrollbar-corner {
+    background-color: transparent; /* Transparent scrollbar corner */
+}
+
+/* Optional: Scrollbar Track on Firefox */
+* {
+    scrollbar-color: #666 #1a1a1a; /* Dark gray handle and dark background color */
+}
